@@ -1,1 +1,8 @@
-<p>ingredient-details works!</p>
+<div class="container">
+    <div *ngIf="(ingredient$ | async) as ingredient">
+        <p>{{ ingredient.id }} : {{ ingredient.name | uppercase }}</p>
+        <p>{{ ingredient.description }}</p>
+    </div>
+</div>
+
+<button type="button" class="btn btn-outline-primary" (click)="goBack()">go back</button>
