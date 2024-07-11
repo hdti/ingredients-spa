@@ -4,5 +4,5 @@ export const environment = {
   production: false,
   defaultLang: 'en',
   providers: [] as Provider[],
-  baseUrl: 'http://localhost:3000/'
+  baseUrl: 'http://localhost:3000/ingredients'
 };

@@ -1,0 +1,28 @@
+{
+    "ingredients": [
+        {
+            "id": "1",
+            "name": "Apple",
+            "pic_url": "https://imgur.com/4DZsTRf.jpg",
+            "description": "Descriptiton of the ingredient."
+        },
+        {
+            "id": "2",
+            "name": "Orange",
+            "pic_url": "https://imgur.com/GsNldip.jpg",
+            "description": "Descriptiton of the ingredient."
+        },
+        {
+            "id": "3",
+            "name": "Banana",
+            "pic_url": "https://imgur.com/s7IbsmI.jpg",
+            "description": "Descriptiton of the ingredient."
+        },
+        {
+            "id": "4",
+            "name": "Pineapple",
+            "pic_url": "https://imgur.com/UmIfyXJ.jpg",
+            "description": "Descriptiton of the ingredient."
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+<div class="d-flex justify-content-center mb-5">
+    <h2>Ingredients</h2>
+</div>
+
+<div class="row row-cols-1 row-cols-md-4 g-4">
+    <div *ngFor="let ingredient of (ingredients$ | async)" class="col">
+      <div class="card shadow  mb-5 " style="width: 18rem;">
+        <img src="{{ ingredient.pic_url }}" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">{{ ingredient.name }}</h5>
+          <p class="card-text">{{ ingredient.description }}</p>
+          <a routerLink="/ingredient/{{ingredient.id}}" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
