@@ -1,6 +1,7 @@
 # IngredientsSpa
+[![Build Status](https://dev.azure.com/dhereish0210/AgileProject/_apis/build/status%2Fhdti.ingredients-spa?branchName=dev)](https://dev.azure.com/dhereish0210/AgileProject/_build/latest?definitionId=3&branchName=dev)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0. It has been added to Azure DevOps.
 
 ## Development server
 
